@@ -1,0 +1,94 @@
+.main-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: url("https://cdn.jsdelivr.net/gh/Sakindu-d/resources/image.png")
+    no-repeat;
+  background-size: 100%;
+}
+.search-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 90px;
+  background: #fff;
+  display: flex;
+  padding-left: 7px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 40px;
+  gap: 1%;
+}
+.input {
+  border: none;
+  outline: none;
+  width: 90%;
+}
+.input:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+.search {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  height: 100%;
+  background-color: rgb(59, 128, 255);
+}
+.profile {
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(6px);
+  margin-top: 40px;
+  border-radius: 10px;
+  font-family: "Varela Round", sans-serif;
+  overflow: hidden;
+  font-weight: 500;
+}
+.img-name {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+}
+.img {
+  height: 80px;
+  width: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.bio {
+  max-width: 100%;
+  word-break: normal;
+  padding: 30px 10px;
+  text-align: center;
+  font-family: monospace;
+}
+.username {
+  color: rgb(53, 52, 52);
+  font-size: 15px;
+  text-decoration: none;
+}
+.other {
+  width: 100%;
+  display: flex;
+  height: 90px;
+  border-top: 1px solid grey;
+}
+.other a {
+  width: 50%;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+#followers,
+#following {
+  font-size: 20px;
+  font-weight: bold;
+}
